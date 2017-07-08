@@ -20,3 +20,5 @@ The system Clock is configured as follow :
  * Flash Latency(WS) = 7
  
  Interrupt is defined in stm32f7xx_it.h file. Interrupt changes values of global variables from my_global.c, and these values are monitored in main cycle. One should keep interrupt handler as small as possible.
+ 
+ This example is quite generic and it does not show any details of actual project.
